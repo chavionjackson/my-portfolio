@@ -12,190 +12,190 @@ import "react-popupbox/dist/react-popupbox.css";
 
 const Pofrfolio = () => {
   // Netflix
-  const openPopupboxNetflix = () => {
-    const content = (
-      <>
-        <img
-          className="portfolio-image-popupbox"
-          src={""}
-          alt="Netflix Clone Project..."
-        />
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
-          illo est expedita quos adipisci suscipit unde itaque qui perferendis.
-        </p>
-        <b>GitHub:</b>{" "}
-        <a
-          className="hyper-link"
-          onClick={() =>
-            window.open("https://github.com/8020Coding/netflix-project")
-          }
-        >
-          https://github.com/8020Coding/netflix-project
-        </a>
-      </>
-    );
-    PopupboxManager.open({ content });
-  };
+  // const openPopupboxNetflix = () => {
+  //   const content = (
+  //     <>
+  //       <img
+  //         className="portfolio-image-popupbox"
+  //         src={""}
+  //         alt="Netflix Clone Project..."
+  //       />
+  //       <p>
+  //         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
+  //         illo est expedita quos adipisci suscipit unde itaque qui perferendis.
+  //       </p>
+  //       <b>GitHub:</b>{" "}
+  //       <a
+  //         className="hyper-link"
+  //         onClick={() =>
+  //           window.open("https://github.com/8020Coding/netflix-project")
+  //         }
+  //       >
+  //         https://github.com/8020Coding/netflix-project
+  //       </a>
+  //     </>
+  //   );
+  //   PopupboxManager.open({ content });
+  // };
 
-  const popupboxConfigNetflix = {
-    titleBar: {
-      enable: true,
-      text: "Netflix clone project.",
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
-  };
+  // const popupboxConfigNetflix = {
+  //   titleBar: {
+  //     enable: true,
+  //     text: "Netflix clone project.",
+  //   },
+  //   fadeIn: true,
+  //   fadeInSpeed: 500,
+  // };
 
-  // City Guide App
-  const openPopupboxCityGuide = () => {
-    const content = (
-      <>
-        <img
-          className="portfolio-image-popupbox"
-          src={""}
-          alt="City Guide App Project..."
-        />
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
-          illo est expedita quos adipisci suscipit unde itaque qui perferendis.
-        </p>
-        <b>Demo:</b>{" "}
-        <a
-          className="hyper-link"
-          onClick={() =>
-            window.open(
-              "https://city-guide-app-project.herokuapp.com/",
-              "_blank"
-            )
-          }
-        >
-          https://city-guide-app-project.herokuapp.com/
-        </a>
-        <br />
-        <b>GitHub:</b>{" "}
-        <a
-          className="hyper-link"
-          onClick={() =>
-            window.open(
-              "https://github.com/8020Coding/city-guide-app",
-              "_blank"
-            )
-          }
-        >
-          https://github.com/8020Coding/city-guide-app
-        </a>
-      </>
-    );
-    PopupboxManager.open({ content });
-  };
+  // // City Guide App
+  // const openPopupboxCityGuide = () => {
+  //   const content = (
+  //     <>
+  //       <img
+  //         className="portfolio-image-popupbox"
+  //         src={""}
+  //         alt="City Guide App Project..."
+  //       />
+  //       <p>
+  //         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
+  //         illo est expedita quos adipisci suscipit unde itaque qui perferendis.
+  //       </p>
+  //       <b>Demo:</b>{" "}
+  //       <a
+  //         className="hyper-link"
+  //         onClick={() =>
+  //           window.open(
+  //             "https://city-guide-app-project.herokuapp.com/",
+  //             "_blank"
+  //           )
+  //         }
+  //       >
+  //         https://city-guide-app-project.herokuapp.com/
+  //       </a>
+  //       <br />
+  //       <b>GitHub:</b>{" "}
+  //       <a
+  //         className="hyper-link"
+  //         onClick={() =>
+  //           window.open(
+  //             "https://github.com/8020Coding/city-guide-app",
+  //             "_blank"
+  //           )
+  //         }
+  //       >
+  //         https://github.com/8020Coding/city-guide-app
+  //       </a>
+  //     </>
+  //   );
+  //   PopupboxManager.open({ content });
+  // };
 
-  const popupboxConfigCityGuide = {
-    titleBar: {
-      enable: true,
-      text: "City Guide App project.",
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
-  };
+  // const popupboxConfigCityGuide = {
+  //   titleBar: {
+  //     enable: true,
+  //     text: "City Guide App project.",
+  //   },
+  //   fadeIn: true,
+  //   fadeInSpeed: 500,
+  // };
 
-  // Portfolio Project
-  const openPopupboxPortfolio = () => {
-    const content = (
-      <>
-        <img
-          className="portfolio-image-popupbox"
-          src={""}
-          alt="Portfolio Project..."
-        />
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
-          illo est expedita quos adipisci suscipit unde itaque qui perferendis.
-        </p>
-        <b>Demo:</b>{" "}
-        <a
-          className="hyper-link"
-          onClick={() =>
-            window.open(
-              "https://portfolio-rea-and-material-ui.herokuapp.com/",
-              "_blank"
-            )
-          }
-        >
-          https://portfolio-rea-and-material-ui.herokuapp.com/
-        </a>
-        <br />
-        <b>GitHub:</b>{" "}
-        <a
-          className="hyper-link"
-          onClick={() =>
-            window.open("https://github.com/8020Coding/portfilio", "_blank")
-          }
-        >
-          https://github.com/8020Coding/portfilio
-        </a>
-      </>
-    );
-    PopupboxManager.open({ content });
-  };
+  // // Portfolio Project
+  // const openPopupboxPortfolio = () => {
+  //   const content = (
+  //     <>
+  //       <img
+  //         className="portfolio-image-popupbox"
+  //         src={""}
+  //         alt="Portfolio Project..."
+  //       />
+  //       <p>
+  //         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
+  //         illo est expedita quos adipisci suscipit unde itaque qui perferendis.
+  //       </p>
+  //       <b>Demo:</b>{" "}
+  //       <a
+  //         className="hyper-link"
+  //         onClick={() =>
+  //           window.open(
+  //             "https://portfolio-rea-and-material-ui.herokuapp.com/",
+  //             "_blank"
+  //           )
+  //         }
+  //       >
+  //         https://portfolio-rea-and-material-ui.herokuapp.com/
+  //       </a>
+  //       <br />
+  //       <b>GitHub:</b>{" "}
+  //       <a
+  //         className="hyper-link"
+  //         onClick={() =>
+  //           window.open("https://github.com/8020Coding/portfilio", "_blank")
+  //         }
+  //       >
+  //         https://github.com/8020Coding/portfilio
+  //       </a>
+  //     </>
+  //   );
+  //   PopupboxManager.open({ content });
+  // };
 
-  const popupboxConfigPortfolio = {
-    titleBar: {
-      enable: true,
-      text: "Poftfolio React and Material UI project.",
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
-  };
+  // const popupboxConfigPortfolio = {
+  //   titleBar: {
+  //     enable: true,
+  //     text: "Poftfolio React and Material UI project.",
+  //   },
+  //   fadeIn: true,
+  //   fadeInSpeed: 500,
+  // };
 
-  // Task Manager React and Redux Project
-  const openPopupboxTaskManager = () => {
-    const content = (
-      <>
-        <img
-          className="portfolio-image-popupbox"
-          src={""}
-          alt="Task Manager React and Redux Project..."
-        />
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
-          illo est expedita quos adipisci suscipit unde itaque qui perferendis.
-        </p>
-        <b>Demo:</b>{" "}
-        <a
-          className="hyper-link"
-          onClick={() =>
-            window.open(
-              "https://react-redux-task-manager.herokuapp.com/",
-              "_blank"
-            )
-          }
-        >
-          https://react-redux-task-manager.herokuapp.com/
-        </a>
-        <br />
-        <b>GitHub:</b>{" "}
-        <a
-          className="hyper-link"
-          onClick={() =>
-            window.open("https://github.com/8020Coding/task-manager", "_blank")
-          }
-        >
-          https://github.com/8020Coding/task-manager
-        </a>
-      </>
-    );
-    PopupboxManager.open({ content });
-  };
+  // // Task Manager React and Redux Project
+  // const openPopupboxTaskManager = () => {
+  //   const content = (
+  //     <>
+  //       <img
+  //         className="portfolio-image-popupbox"
+  //         src={""}
+  //         alt="Task Manager React and Redux Project..."
+  //       />
+  //       <p>
+  //         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
+  //         illo est expedita quos adipisci suscipit unde itaque qui perferendis.
+  //       </p>
+  //       <b>Demo:</b>{" "}
+  //       <a
+  //         className="hyper-link"
+  //         onClick={() =>
+  //           window.open(
+  //             "https://react-redux-task-manager.herokuapp.com/",
+  //             "_blank"
+  //           )
+  //         }
+  //       >
+  //         https://react-redux-task-manager.herokuapp.com/
+  //       </a>
+  //       <br />
+  //       <b>GitHub:</b>{" "}
+  //       <a
+  //         className="hyper-link"
+  //         onClick={() =>
+  //           window.open("https://github.com/8020Coding/task-manager", "_blank")
+  //         }
+  //       >
+  //         https://github.com/8020Coding/task-manager
+  //       </a>
+  //     </>
+  //   );
+  //   PopupboxManager.open({ content });
+  // };
 
-  const popupboxConfigTaskManager = {
-    titleBar: {
-      enable: true,
-      text: "Task Manager React and Redux project.",
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
-  };
+  // const popupboxConfigTaskManager = {
+  //   titleBar: {
+  //     enable: true,
+  //     text: "Task Manager React and Redux project.",
+  //   },
+  //   fadeIn: true,
+  //   fadeInSpeed: 500,
+  // };
 
   return (
     <div id="portfolio" className="portfolio-wrapper">

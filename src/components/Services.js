@@ -15,13 +15,13 @@ const Services = () => {
                 <FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
               </div>
               <h3>Web Design</h3>
-              <p>
-                I approach each project individually and always focus on the
-                result.
+              <p style={{ fontWeight: "bold" }}>
+                A website should be designed for the people who will use it, so
+                that's exactly what I do. User focused design should be the
+                primary goal of any website.
               </p>
             </div>
           </div>
-          {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
@@ -29,11 +29,14 @@ const Services = () => {
               </div>
 
               <h3>Web Development</h3>
-              <p>Your website will be build with an new proven technologies.</p>
+              <p style={{ fontWeight: "bold" }}>
+                Every website should be built with two primary goals: Firstly,
+                it needs to work across all devices. Secondly, it needs to be
+                fast as possible.
+              </p>
             </div>
           </div>
-          {/* - */}
-          <div className="col-lg-3 col-md-6 col-sm-6">
+          {/* <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon
@@ -50,7 +53,6 @@ const Services = () => {
               </p>
             </div>
           </div>
-          {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
@@ -61,9 +63,8 @@ const Services = () => {
                 Your service or product will appear at the top of the Google
                 search
               </p>
-              .
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

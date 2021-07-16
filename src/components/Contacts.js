@@ -6,9 +6,9 @@ const Contacts = () => {
   const [successMessage, setSuccessMessage] = useState("");
   const { register, handleSubmit, formState: { errors } } = useForm();
 
-  const serviceID = "service_ID";
-  const templateID = "template_ID";
-  const userID = "user_RXtQk9xbkcuxeI8Wr9FD4";
+  const serviceID = "service_h0r9iyn";
+  const templateID = "template_chevy";
+  const userID = "user_ttdLww8C5mNkQyF4XCu1r";
 
   const onSubmit = (data, r) => {
     sendEmail(
@@ -42,7 +42,7 @@ const Contacts = () => {
       <div className="text-center">
         <h1>contact me</h1>
         <p>
-          Please fill out the form and describe you project needs and I'll
+          Please fill out the form to reach me and I'll
           contact you as soon as possible.
         </p>
         <span className="success-message">{successMessage}</span>
@@ -130,10 +130,10 @@ const Contacts = () => {
                 <textarea
                   type="text"
                   className="form-control"
-                  placeholder="Please describe shortly you project..."
+                  placeholder="Please describe shortly your inquiry..."
                   name="description"
                   {...register("description", {
-                    required: "Please describe shortly your project needs...",
+                    required: "Please describe shortly your inquiry...",
                   })}
                 ></textarea>
                 <div className="line"></div>

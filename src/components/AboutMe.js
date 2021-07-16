@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../images/me.jpeg"
+import me from "../images/me2.jpeg";
 
 const AboutMe = () => {
   return (
@@ -12,22 +12,13 @@ const AboutMe = () => {
         </div>
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-heading">about me</h1>
-          <p>
-            Hello! I am Andrew. I have been developing websites for over 5
-            years. I'm Full-Stack Web Developer. Technologies I use is
-            MERN(MongoDB, Express, ReactJS and NodeJS). I create responsive
-            websites that are displayed on all devices desktops and smartphones.
-            Of course, before I begin developing any webapp, Landing Page,
-            Business Website or E-commerce, I need to have a ready-made project
-            layout (sketch). And I’m ready to do this for you, before we start
-            developing your website, we will discuss all the details of your
-            niche with you, I will conduct a survey of your competitors and make
-            a list of their advantages and weaknesses. All this is necessary to
-            give your customers something that your competitors do not provide,
-            or to present it too, but better! After the website is finished and
-            ready to deploy and sell a product or service. It is essential that
-            your potential clients know about you. I will create an advertising
-            campaign for you in Google Adwords and Facebook!
+          <p style={{ fontWeight: "bolder" }} >
+            Hello! I am Chavion. A passionate Full Stack Web Developer who loves
+            building user-friendly websites with, JavaScript, React JS and Node
+            JS. I love structure and order, I also stand for quality. I enjoy
+            spending time on fixing the little details and optimizing web apps.
+            Dedicated and motivated teammate, I truly believe you learn faster
+            working with a team. "Two heads are better than one".
           </p>
         </div>
       </div>

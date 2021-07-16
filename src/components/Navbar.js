@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/test logo.png";
+import logo from "../images/test logo2.jpg";
 import { Link } from "react-scroll";
 // REACT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -48,14 +48,6 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                smooth={true}
-                to="experience"
-                offset={-110}
-                className="nav-link"
-              >
-                experience
-              </Link>
             </li>
             <li className="nav-item">
               <Link
