@@ -4,10 +4,10 @@ import React from "react";
 // import portfolio from "../images/portfolio.png";
 // import taskManager from "../images/task-manager.png";
 // FONTAWESOME IMPORTS
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 // REACT POPUPBOX
-import { PopupboxManager, PopupboxContainer } from "react-popupbox";
+// import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 
 const Pofrfolio = () => {

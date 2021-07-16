@@ -429,7 +429,7 @@ nav ul li {
   }
 
 /************************ TESTIMONIALS *********************************/
-.testimonials {
+/* .testimonials {
   background-image: url("");
   background-size: cover;
   background-color: var(--primary-black);
@@ -490,7 +490,7 @@ nav ul li {
 .carousel-root {
   margin: auto !important;
   margin-top: 3% !important;
-}
+} */
 
 /************************ CONTACTS COMPONENT *********************************/
 .contacts {
