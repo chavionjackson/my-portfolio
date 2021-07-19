@@ -45,6 +45,7 @@ const Contacts = () => {
           Please fill out the form to reach me and I'll
           contact you as soon as possible.
         </p>
+        <p>(Links to GitHub and LinkedIn below.)</p>
         <span className="success-message">{successMessage}</span>
       </div>
       <div className="container">

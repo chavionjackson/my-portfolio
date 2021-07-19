@@ -522,7 +522,7 @@ nav ul li {
   border: 0;
   border-bottom: 0.125rem solid var(--primary-dark-grey);
   border-radius: 0;
-  color: var(--primary-orange);
+  color: white;
   outline: 0 !important;
   box-shadow: none !important;
   margin-bottom: 1rem;
