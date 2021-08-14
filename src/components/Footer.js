@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { AiFillGithub } from "react-icons/ai"
-import { AiFillLinkedin } from "react-icons/ai"
+import { AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillFacebook } from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
-
 
 const Footer = () => {
   return (
@@ -57,9 +58,16 @@ const Footer = () => {
               <a href="https://www.linkedin.com/in/chavionj">
                 <AiFillLinkedin className="mx-3" size={36} />
               </a>
-              {/* <iframe download="" src="public/resumse.pdf"> */}
-                {/* <CgFileDocument className="mx-3" size={36} /> */}
-              {/* </iframe> */}
+              <a href="https://www.facebook.com/chavion.jackson/">
+                <AiFillFacebook className="mx-3" size={36} />
+              </a>
+              <a href="https://www.instagram.com/young_sinatra24//">
+                <AiFillInstagram className="mx-3" size={36} />
+              </a>
+
+              {/* <iframe download="" src="public/resumse.pdf">
+                <CgFileDocument className="mx-3" size={36} />
+              </iframe> */}
             </div>
           </div>
         </div>
