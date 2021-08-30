@@ -57,7 +57,7 @@ const Pofrfolio = () => {
           alt="Real Estate Project..."
         />
         <p>
-          Real Estate App created using React and styled components. Find your
+          Real Estate App created using React, Redux and Styled Components. Find your
           perfect home from anywhere around the globe.
         </p>
         <b>Demo:</b>{" "}
