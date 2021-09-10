@@ -10,16 +10,17 @@ const Contacts = () => {
   const templateID = "template_chevy";
   const userID = "user_ttdLww8C5mNkQyF4XCu1r";
 
-  const onSubmit = (data, r) => {
+  const onSubmit = (data, r, e) => {
+    e.preventDefault(); // Prevents default refresh by the browser
     sendEmail(
       serviceID,
       templateID,
       {
-        name: data.name,
+        from: data.firstname + data.lastname,
         phone: data.phone,
         email: data.email,
-        subject: data.subject,
-        description: data.description,
+        message: data.message,
+        // description: data.description,
       },
       userID
     );
