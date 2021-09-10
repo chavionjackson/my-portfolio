@@ -16,7 +16,7 @@ const Contacts = () => {
       serviceID,
       templateID,
       {
-        from: data.firstname + data.lastname,
+        from: data.name,
         phone: data.phone,
         email: data.email,
         message: data.message,
@@ -133,8 +133,8 @@ const Contacts = () => {
                   type="text"
                   className="form-control"
                   placeholder="Please describe shortly your inquiry..."
-                  name="description"
-                  {...register("description", {
+                  name="message"
+                  {...register("message", {
                     required: "Please describe shortly your inquiry...",
                   })}
                 ></textarea>
