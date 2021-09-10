@@ -133,8 +133,8 @@ const Contacts = () => {
                   type="text"
                   className="form-control"
                   placeholder="Please describe shortly your inquiry..."
-                  name="message"
-                  {...register("message", {
+                  name="description"
+                  {...register("description", {
                     required: "Please describe shortly your inquiry...",
                   })}
                 ></textarea>
