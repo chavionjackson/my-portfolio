@@ -19,8 +19,8 @@ const Contacts = () => {
         from: data.name,
         phone: data.phone,
         email: data.email,
-        message: data.message,
-        // description: data.description,
+        subject: data.subject,
+        description: data.description,
       },
       userID
     );
