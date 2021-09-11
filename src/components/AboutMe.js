@@ -18,7 +18,7 @@ const AboutMe = () => {
             JS with a focus on interactive websites. Full-stack developer
             experience with handling things like database operations, user
             authentication, and application logic. In his spare time, Chavion
-            enjoys outdoor activities such as, hiking, footabll and working out.
+            enjoys outdoor activities such as, hiking, football and working out.
             Along with his passion for coding.
           </p>
         </div>
