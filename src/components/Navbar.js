@@ -67,7 +67,7 @@ const Navbar = () => {
                 offset={-110}
                 className="nav-link"
               >
-                contacts
+                contact
               </Link>
             </li>
           </ul>
