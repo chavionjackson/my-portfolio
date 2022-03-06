@@ -154,7 +154,7 @@ nav ul li {
 }
 
 .profile-img {
-  width: 16rem;
+  width: 24rem;
   border-radius: 50%;
   padding: 0.3rem;
   border: 2px solid aqua;
@@ -617,11 +617,6 @@ textarea.form-control {
   margin-bottom: 0;
 }
 
-/*Style for first 3 divs portfolio*/
-/* <div className="portfolio-wrapper">
-      <div className="container">
-        <h1 className="text-uppercase text-center py-5">portfolio</h1> 
-        class name: image-box-wrapper row justify-content-center*/
 .new-style {
   display: flex;
   flex-wrap: wrap;
