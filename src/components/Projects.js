@@ -150,7 +150,7 @@ const Projects = () => {
 
   return (
     <div id="projects" className="projects-wrapper">
-      <div className="container">
+      <div className="">
         <h1 className="text-uppercase text-center py-5">my projects</h1>
         <div className="new-style">
           <div className="projects-image-box" onClick={openPopupboxRealEstate}>

@@ -165,7 +165,7 @@ nav ul li {
   text-transform: uppercase;
   text-decoration-line: underline;
   text-decoration-thickness: 0.2rem;
-  text-decoration-color: var(--primary-black);
+  text-decoration-color: white;
 }
 
 @media (max-width: 468px) {
@@ -209,7 +209,7 @@ nav ul li {
 }
 
 .services .box {
-  height: 16rem;
+  /* height: 16rem; */
   border-bottom: 0.3125rem solid black;
   padding: 0.625rem;
   margin-bottom: 1.875rem;
@@ -332,9 +332,10 @@ nav ul li {
 
 .projects-wrapper h1 {
   color: aqua;
+  background-color: #000000;
   text-decoration-line: underline;
   text-decoration-thickness: 0.2rem;
-  text-decoration-color: var(--primary-black);
+  text-decoration-color: white;
 }
 
 .projects-image {
@@ -621,7 +622,7 @@ textarea.form-control {
 .new-style {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 @media (max-width: 768px) {
