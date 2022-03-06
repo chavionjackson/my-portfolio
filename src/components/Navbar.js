@@ -7,7 +7,10 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
-    <nav style={{ backgroundColor: "black" }} className="navbar navbar-expand-lg fixed-top">
+    <nav
+      style={{ backgroundColor: "black" }}
+      className="navbar navbar-expand-lg fixed-top"
+    >
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img className="logo" src={logo} alt="logo..." />
@@ -27,42 +30,39 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mb-2 mb-lg-0 ms-auto">
             <li className="nav-item active">
-              <Link smooth={true} to="home" className="nav-link" href="#">
+              <Link to="home" className="nav-link" href="#">
                 Home <span className="sr-only">(current)</span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link smooth={true} to="about" offset={-110} className="nav-link">
+              <Link to="about" offset={-110} className="nav-link">
                 about me
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                smooth={true}
                 to="services"
                 offset={-110}
                 className="nav-link"
                 href="#"
               >
-                services
+                experience
               </Link>
             </li>
-            <li className="nav-item">
-            </li>
+            {/* <li className="nav-item">
+            </li> */}
             <li className="nav-item">
               <Link
-                smooth={true}
-                to="portfolio"
+                to="projects"
                 offset={-110}
                 className="nav-link"
               >
-                portfolio
+                projects
               </Link>
             </li>
 
             <li className="nav-item">
               <Link
-                smooth={true}
                 to="contacts"
                 offset={-110}
                 className="nav-link"
