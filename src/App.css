@@ -323,26 +323,26 @@ nav ul li {
   }
 }
 
-/************************ PORTFOLIO *********************************/
-.portfolio-wrapper {
+/************************ PROJECTS *********************************/
+.projects-wrapper {
   background: var(--primary-light-grey);
   padding: 3rem 0;
 }
 
-.portfolio-wrapper h1 {
+.projects-wrapper h1 {
   color: aqua;
   text-decoration-line: underline;
   text-decoration-thickness: 0.2rem;
   text-decoration-color: var(--primary-black);
 }
 
-.portfolio-image {
+.projects-image {
   width: 22rem;
   border: 3px solid aqua;
   padding: 1rem 0.5rem;
 }
 
-.portfolio-image-box {
+.projects-image-box {
   position: relative;
   margin: 1rem;
 }
@@ -359,12 +359,12 @@ nav ul li {
   cursor: pointer;
 }
 
-.portfolio-image-box:hover .overflow {
+.projects-image-box:hover .overflow {
   opacity: 60%;
   transition: 0.3s ease-in-out;
 }
 
-.portfolio-icon {
+.projects-icon {
   position: absolute;
   opacity: 0;
   margin-left: -12rem;
@@ -373,7 +373,7 @@ nav ul li {
   font-size: 1.5rem;
 }
 
-.portfolio-image-box:hover .portfolio-icon {
+.projects-image-box:hover .projects-icon {
   opacity: 70%;
   transition: 0.3s ease-in-out;
   cursor: pointer;
@@ -384,7 +384,7 @@ nav ul li {
 }
 
 /*------------ OVERFLOW BOX ------------------*/
-.portfolio-image-popupbox {
+.projects-image-popupbox {
   width: 45rem;
   padding: 0 0.5rem;
 }
@@ -400,7 +400,7 @@ nav ul li {
 
 /*------------ MEDIA ------------------*/
 @media (max-width: 768px) {
-  .portfolio-image-popupbox {
+  .projects-image-popupbox {
     width: 100%;
   }
 }
@@ -409,7 +409,7 @@ nav ul li {
   .popupbox-wrapper {
     height: 100%;
   }
-  .portfolio-image-popupbox {
+  .projects-image-popupbox {
     width: 50%;
   }
 }
@@ -418,7 +418,7 @@ nav ul li {
   .popupbox-wrapper {
     height: 90%;
   }
-  .portfolio-image-popupbox {
+  .projects-image-popupbox {
     width: 30%;
   }
 }
