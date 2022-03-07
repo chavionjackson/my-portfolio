@@ -1,14 +1,16 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
-import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
+import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 
 const Experience = () => {
   return (
-    <div id="services" className="services">
+    <div id="experience" className="services">
       <h1 className="py-5">my experience</h1>
       <div className="container">
-        <div className="row" style={{paddingTop: "1rem", justifyContent: "space-around"}} >
+        <div
+          className="row"
+          style={{ paddingTop: "1rem", justifyContent: "space-around" }}
+        >
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">

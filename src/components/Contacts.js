@@ -4,19 +4,23 @@ import { useForm } from "react-hook-form";
 
 const Contacts = () => {
   const [successMessage, setSuccessMessage] = useState("");
-  const { register, handleSubmit, formState: { errors } } = useForm();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
 
-  const serviceID = "service_neb5ptw";
+  const serviceID = "service_h0r9iyn";
   const templateID = "template_chevy";
   const userID = "user_ttdLww8C5mNkQyF4XCu1r";
 
-  const onSubmit = (data, r, ) => {
+  const onSubmit = (data, r) => {
     // e.preventDefault(); // Prevents default refresh by the browser
     sendEmail(
       serviceID,
       templateID,
       {
-        from: data.name,
+        name: data.name,
         phone: data.phone,
         email: data.email,
         subject: data.subject,
@@ -25,6 +29,7 @@ const Contacts = () => {
       userID
     );
     r.target.reset();
+    // console.log(data)
   };
 
   const sendEmail = (serviceID, templateID, variables, userID) => {
@@ -43,8 +48,8 @@ const Contacts = () => {
       <div className="text-center">
         <h1>contact me</h1>
         <p>
-          Please fill out the form to reach me and I'll
-          contact you as soon as possible.
+          Please fill out the form to reach me and I'll contact you as soon as
+          possible.
         </p>
         <p>(Links to GitHub and LinkedIn below.)</p>
         <span className="success-message">{successMessage}</span>
@@ -64,7 +69,8 @@ const Contacts = () => {
                     required: "Please enter your name",
                     maxLength: {
                       value: 20,
-                      message: "Please enter a name with fewer than 20 characters",
+                      message:
+                        "Please enter a name with fewer than 20 characters",
                     },
                   })}
                 />

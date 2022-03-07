@@ -4,7 +4,6 @@ import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillFacebook } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
-import { CgFileDocument } from "react-icons/cg";
 
 const Footer = () => {
   return (
@@ -33,15 +32,14 @@ const Footer = () => {
                   About me
                 </Link>
                 <br />
-                <Link href="#" to="services" className="footer-nav">
-                  Services
+                <Link href="#" to="experience" className="footer-nav">
+                  Experience
                 </Link>
               </div>
               <div className="col">
-                {/* <a className="footer-nav">Experience</a> */}
                 <br />
-                <Link href="#" to="portfolio" className="footer-nav">
-                  Portfolio
+                <Link href="#" to="projects" className="footer-nav">
+                  Projects
                 </Link>
                 <br />
                 <Link href="#" to="contacts" className="footer-nav">
@@ -64,10 +62,6 @@ const Footer = () => {
               <a href="https://www.instagram.com/young_sinatra24//">
                 <AiFillInstagram className="mx-3" size={36} />
               </a>
-
-              {/* <iframe download="" src="public/resumse.pdf">
-                <CgFileDocument className="mx-3" size={36} />
-              </iframe> */}
             </div>
           </div>
         </div>

@@ -40,7 +40,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="services" offset={-110} className="nav-link" href="#">
+              <Link to="experience" offset={-110} className="nav-link" href="#">
                 experience
               </Link>
             </li>

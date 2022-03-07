@@ -1,5 +1,4 @@
 import React from "react";
-// import netflix from "../images/netflix.png";
 import realEstate from "../images/real-estate.png";
 import anywhereFit from "../images/anywhere_fit.png";
 import sauti from "../images/sauti_mp.png";
