@@ -1,5 +1,6 @@
 import React from "react";
 import realEstate from "../images/real-estate.png";
+import utahJazz from "../images/utah-jazz.png";
 import anywhereFit from "../images/anywhere_fit.png";
 import sauti from "../images/sauti_mp.png";
 // FONTAWESOME IMPORTS
@@ -10,6 +11,15 @@ import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 
 const Projects = () => {
+  const popupboxConfigureProjects = {
+    titleBar: {
+      enable: true,
+      text: "",
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+  };
+
   // Real Estate App
   const openPopupboxRealEstate = () => {
     const content = (
@@ -52,14 +62,6 @@ const Projects = () => {
     PopupboxManager.open({ content });
   };
 
-  const popupboxConfigRealEstate = {
-    titleBar: {
-      enable: true,
-      text: "",
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
-  };
   // Sauti MarketPlace
   const openPopupboxSauti = () => {
     const content = (
@@ -95,15 +97,7 @@ const Projects = () => {
     PopupboxManager.open({ content });
   };
 
-  const popupboxConfigureSautiMp = {
-    titleBar: {
-      enable: true,
-      text: "",
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
-  };
-
+  // Anywhere Fitness
   const openPopupboxAnywhereFit = () => {
     const content = (
       <>
@@ -131,20 +125,42 @@ const Projects = () => {
             )
           }
         >
-          https://github.com/tt-2-african-market-build/frontend/tree/master
+          https://github.com/anywhere-fitness-6/af6/tree/main
         </a>
       </>
     );
     PopupboxManager.open({ content });
   };
 
-  const popupboxConfigureAnywhereFit = {
-    titleBar: {
-      enable: true,
-      text: "",
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
+  // Utah Jazz Seating
+  const openPopupboxUtahJazz = () => {
+    const content = (
+      <>
+        <img
+          className="projects-image-popupbox"
+          src={utahJazz}
+          alt="Utah Jazz..."
+        />
+        <p>
+          ● Implemented a two page website replicating the premium seating for
+          the Utah Jazz professional basketball team.
+          <br />● Webpages were created using Next.Js and Tailwind CSS
+        </p>
+        <b>GitHub:</b>{" "}
+        <a
+          className="hyper-link"
+          onClick={() =>
+            window.open(
+              "https://github.com/chavionjackson/Jazz-Premium-Seating",
+              "_blank"
+            )
+          }
+        >
+          https://github.com/chavionjackson/Jazz-Premium-Seating
+        </a>
+      </>
+    );
+    PopupboxManager.open({ content });
   };
 
   return (
@@ -195,11 +211,19 @@ const Projects = () => {
               </li>
             </ul>
           </div>
+          <div className="projects-image-box" onClick={openPopupboxUtahJazz}>
+            <img className="projects-image" src={utahJazz} alt="Utah Jazz..." />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="projects-icon" icon={faSearchPlus} />
+            <ul>
+              <li style={{ fontSize: "1.75rem", fontWeight: "bold" }}>
+                Utah Jazz
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-      <PopupboxContainer {...popupboxConfigRealEstate} />
-      <PopupboxContainer {...popupboxConfigureSautiMp} />
-      <PopupboxContainer {...popupboxConfigureAnywhereFit} />
+      <PopupboxContainer {...popupboxConfigureProjects} />
     </div>
   );
 };
