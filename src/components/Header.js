@@ -11,7 +11,7 @@ const Header = () => {
         <Typed
           className="typed-text"
           strings={[
-            "Front-End Developer",
+            "Full-Stack Developer",
             "UX / UI Developer",
             "Creative Innovator",
           ]}
